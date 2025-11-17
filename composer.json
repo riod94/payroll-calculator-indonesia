@@ -1,0 +1,56 @@
+{
+    "name": "riod94/payroll-calculator",
+    "description": "A comprehensive payroll calculator library to support PHP projects with Indonesian tax calculations (PPh21, PPh23, PPh26).",
+    "type": "library",
+    "license": "ISC",
+    "homepage": "https://github.com/riod94/payroll-calculator-php",
+    "readme": "README.md",
+    "authors": [
+        {
+            "name": "Rio Dwi Prabowo",
+            "email": "riyo.s94@gmail.com",
+            "homepage": "https://github.com/riod94"
+        }
+    ],
+    "keywords": [
+        "payroll",
+        "calculator",
+        "tarif efektif rata-rata",
+        "TER",
+        "pph",
+        "pph21",
+        "pph23",
+        "pph26",
+        "pajak",
+        "tax",
+        "withholding",
+        "withholding tax",
+        "indonesia"
+    ],
+    "support": {
+        "issues": "https://github.com/riod94/payroll-calculator-php/issues",
+        "source": "https://github.com/riod94/payroll-calculator-php"
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PayrollCalculator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PayrollCalculator\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test-coverage": "phpunit --coverage-html coverage"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
