@@ -16,6 +16,8 @@ Thumbs.db
 # Testing
 /coverage/
 .phpunit.result.cache
+.phpunit.cache/
+.phpunit/
 
 # Temporary files
 *.tmp
