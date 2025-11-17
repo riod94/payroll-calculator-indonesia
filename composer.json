@@ -1,9 +1,9 @@
 {
-    "name": "riod94/payroll-calculator",
-    "description": "A comprehensive payroll calculator library to support PHP projects with Indonesian tax calculations (PPh21, PPh23, PPh26).",
+    "name": "riod94/payroll-calculator-indonesia",
+    "description": "A comprehensive Indonesian payroll calculator library for PHP projects with tax calculations (PPh21, PPh23, PPh26).",
     "type": "library",
     "license": "ISC",
-    "homepage": "https://github.com/riod94/payroll-calculator-php",
+    "homepage": "https://github.com/riod94/payroll-calculator-indonesia",
     "readme": "README.md",
     "authors": [
         {
@@ -28,8 +28,8 @@
         "indonesia"
     ],
     "support": {
-        "issues": "https://github.com/riod94/payroll-calculator-php/issues",
-        "source": "https://github.com/riod94/payroll-calculator-php"
+        "issues": "https://github.com/riod94/payroll-calculator-indonesia/issues",
+        "source": "https://github.com/riod94/payroll-calculator-indonesia"
     },
     "require": {
         "php": ">=8.0"

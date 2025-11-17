@@ -8,8 +8,7 @@ use PayrollCalculator\DataStructures\OvertimeSummary;
 use PayrollCalculator\Types\{
     OvertimeCalculationType,
     OvertimeDetailsType,
-    OvertimeMultiplierDetailType,
-    OvertimeSummaryType
+    OvertimeMultiplierDetailType
 };
 
 trait OvertimeCalculator

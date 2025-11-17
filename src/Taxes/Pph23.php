@@ -30,9 +30,9 @@ class Pph23 extends AbstractPph
 
         // Calculate gross income for PPh23 (services, rentals, consulting, etc.)
         $grossIncome = $this->calculator->result->earnings->base +
-                      $this->calculator->result->earnings->fixedAllowance +
-                      $this->calculator->result->allowances->sum() +
-                      $this->calculator->employee->bonus->sum();
+            $this->calculator->result->earnings->fixedAllowance +
+            $this->calculator->result->allowances->sum() +
+            $this->calculator->result->bonus->sum();
 
         // Add overtime if calculated
         if (isset($this->calculator->result->earnings->overtime) && isset($this->calculator->result->earnings->overtime->payment)) {
@@ -45,6 +45,7 @@ class Pph23 extends AbstractPph
         // - 15% for certain specialized services
         // Using 2% as default rate for general PPh23 calculation
         $pph23Rate = 0.02; // 2% standard rate
+        // TODO: implement rate calculation based on income type
 
         // Calculate tax liability
         $taxLiability = $grossIncome * $pph23Rate;
