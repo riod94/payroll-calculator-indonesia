@@ -1,5 +1,10 @@
 # Payroll Calculator PHP
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/riod94/payroll-calculator-indonesia.svg)](https://packagist.org/packages/riod94/payroll-calculator-indonesia)
+[![Total Downloads](https://img.shields.io/packagist/dt/riod94/payroll-calculator-indonesia.svg)](https://packagist.org/packages/riod94/payroll-calculator-indonesia)
+[![License](https://img.shields.io/github/license/riod94/payroll-calculator-indonesia.svg)](https://github.com/riod94/payroll-calculator-indonesia/blob/main/LICENSE)
+[![PHP Version](https://img.shields.io/packagist/php-v/riod94/payroll-calculator-indonesia.svg)](https://packagist.org/packages/riod94/payroll-calculator-indonesia)
+
 A comprehensive payroll calculator library for PHP projects with Indonesian tax calculations (PPh21, PPh23, PPh26).
 
 ## Features
